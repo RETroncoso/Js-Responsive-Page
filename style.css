@@ -314,7 +314,7 @@ footer {
   display: flex;
   margin-top: 25px;
   width: 100%;
-  height: 10vh;
+  height: 6vh;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -333,7 +333,7 @@ footer {
 
 .footer_l img {
   padding-left: 25px;
-  height: 6vh;
+  height: 2vh;
 }
 
 .footer_m {
