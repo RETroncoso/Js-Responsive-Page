@@ -333,7 +333,7 @@ const principal = `
     <h2>Valeon Games</h2>
     <p>Una tienda creada POR gamers, PARA gamers</p>
     <p>Conocemos la GRAN diferencia que hace un periferico de calidad a la hora de jugar y por eso nuestra meta es ofrecer la mejor calidad al menor precio posible.</p>
-    <button class="nosotrosBtn_l">VER PRODUCTOS</button>
+    <button class="nosotrosBtn_l" onClick="document.getElementById('productos').scrollIntoView();">VER PRODUCTOS</button>
     <button class="nosotrosBtn_r">CONSULTANOS</button>    
     </div>
 <div class="nosotros_r" ><img src="./src/pc_hero.png" alt=""></div>

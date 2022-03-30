@@ -35,7 +35,7 @@ li {
 header {
   background: linear-gradient(180deg, #151515 0%, #1f1f1f 97.92%);
   width: 100%;
-  height: 10vh;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,19 +135,24 @@ header {
 }
 
 .nosotros_l {
-  width: 50%;
-  margin-left: 40px;
+  width: 60%;
+  margin-left: 50px;
 }
 
 .nosotros_l h3 {
   margin: 0;
   font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .nosotros_l h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   margin: 0;
+}
+
+.nosotros_l p {
+  font-size: 1.25rem;
 }
 
 .nosotros_l button {
@@ -179,6 +184,14 @@ header {
   position: absolute;
   right: 0;
   height: 400px;
+}
+
+.nosotrosBtn_r:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+
+.nosotrosBtn_l:hover {
+  box-shadow: 0 0 10px 3px white;
 }
 
 .searchSection {
@@ -305,6 +318,11 @@ header {
 
 .card button:hover {
   cursor: pointer;
+}
+
+.card button:active {
+  background-color: #1e996c;
+  box-shadow: 0px 0px 5px 1px white;
 }
 
 /* FOOTER */
@@ -537,6 +555,26 @@ footer {
     width: 100%;
   }
 
+  .header_m {
+    height: 40px;
+  }
+
+  .nosotros_l {
+    text-align: center;
+  }
+
+  .nosotrosBtn_l {
+    margin-bottom: 10px;
+  }
+
+  .nosotros_l h2 {
+    font-size: 2rem;
+  }
+
+  .searchSection {
+    text-align: center;
+  }
+
   #buscador {
     width: 80%;
   }
@@ -560,6 +598,12 @@ footer {
 
   .card_inf {
     height: 25%;
+  }
+
+  .card_inf button {
+    font-size: 0.8rem;
+    width: 90px;
+    height: 40px;
   }
 
   .nosotros_r {
